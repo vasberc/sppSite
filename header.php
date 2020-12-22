@@ -1,0 +1,9 @@
+<?php
+			
+				echo '<a href="http://localhost/"><img src="http://localhost/images/logo.jpg" id="logo" alt="logo"></a>
+						<h1 class="header">Σύνδεσμος Προπονητών Ποδοσφαίρου Λασιθίου</h1>
+						<h2 class="header">– Μέλος της Πανελλήνιας Ένωσης Προπονητών Ποδοσφαίρου-</h2>';
+		
+
+?>			
+			

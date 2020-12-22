@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags always come first -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		
+		<!-- favicon-96x96.png - For Google TV. -->
+		<link rel="icon" type="image/png" href="images/logo96.png" sizes="96x96">
+
+		<!-- favicon-16x16.png - The classic favicon, displayed in the tabs. -->
+		<link rel="icon" type="image/png" href="images/logo16.png" sizes="16x16">
+
+		<!-- favicon-32x32.png - For Safari on Mac OS. -->
+		<link rel="icon" type="image/png" href="images/logo32.png" sizes="32x32">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+	<title>Σύνδεσμος Προπονητών Ποδοσφαίρου Λασιθίου</title>
+	</head>
+	<body>
+		<div id="content">
+			<header>
+			<?php include 'header.php';?>
+			</header>
+			<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+				<?php include 'nav.php';?>
+			</nav>
+			<div style="border-top:solid white; border-left:solid black; border-right:solid black; border-bottom:solid black" class="maincontent">
+				<h2>Καλώς Ήρθατε</h2>	
+				<p>
+                    Καλώς ήρθατε στην επίσημη ιστοσελίδα του Συνδέσμου Προπονητών Ποδοσφαίρου Νομού Λασιθίου. 
+                    Μέσα από την ιστοσελίδα μας θα έχετε τη δυνατότητα να ενημερώνεστε για τα νέα, που αφορούν τον σύνδεσμο.
+                </p>
+			</div>
+			<footer>
+				<?php include 'footer.php';?>
+			</footer>
+		</div>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<?php
+	
+echo '<ul class="menu">
+					<li><a style="border-top:solid black; border-left:solid black; border-right:solid black; border-bottom:solid white; border-radius:20px 20px 0px 0px; box-shadow: -5px -8px 20px 1px rgba(255,255,255,0.5); z-index: 1" class="menu" id="main" href="http://localhost/">Αρχική</a></li>
+					<li class="submenu"><a style="border:solid black; border-radius:20px 20px 0px 0px" class="menu" id="submenubtn" href="http://localhost/o-syndesmos.php">Ο Σύνδεσμος</a>
+						<div class="submenu-content">
+							<a href="http://localhost/o-syndesmos/istoriko.php">Ιστορικό</a>
+							<a href="http://localhost/o-syndesmos/ektelestiki-epitropi.php">Εκτελεστική Επιτροπή</a>
+							<a href="http://localhost/o-syndesmos/melh.html">php</a>
+							<a href="http://localhost/o-syndesmos/katastatiko.php">Καταστατικό</a>
+							<a href="http://localhost/o-syndesmos/egrafa.php">Έγγραφα</a>
+						</div>
+					</li>
+					<li><a style="border:solid black; border-radius:20px 20px 0px 0px" class="menu" href="http://localhost/nea.php">Νέα-Ανακοινώσεις-Blog</a></li>
+					<li id="login"><a style="border:solid black; border-radius:20px 20px 0px 0px" class="menu" href="http://localhost/eisodos-melwn.php">Είσοδος Μελών</a></li>
+				</ul>';
+
+?>
