@@ -24,24 +24,31 @@
 	<title>Σύνδεσμος Προπονητών Ποδοσφαίρου Λασιθίου</title>
 	</head>
 	<body>
-		<div id="content">
-			<header>
-			<?php include 'header.php';?>
-			</header>
-			<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-				<?php include 'nav.php';?>
-			</nav>
-			<div style="border-top:solid white; border-left:solid black; border-right:solid black; border-bottom:solid black" class="maincontent">
-				<h2>Καλώς Ήρθατε</h2>	
-				<p>
-                    Καλώς ήρθατε στην επίσημη ιστοσελίδα του Συνδέσμου Προπονητών Ποδοσφαίρου Νομού Λασιθίου. 
-                    Μέσα από την ιστοσελίδα μας θα έχετε τη δυνατότητα να ενημερώνεστε για τα νέα, που αφορούν τον σύνδεσμο.
-                </p>
+		
+		<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+			<?php include 'nav.php';?>
+		</nav>
+		<header class="jumbotron">
+		<?php include 'header.php';?>
+		</header>
+		<hr>
+		<div class="container">
+			<div class="row row-content">
+				<div class="col-12">		
+					<h2>Καλώς Ήρθατε</h2>
+				</div>
+				<div class="col-12">
+					<p>
+						Καλώς ήρθατε στην επίσημη ιστοσελίδα του Συνδέσμου Προπονητών Ποδοσφαίρου Νομού Λασιθίου. 
+						Μέσα από την ιστοσελίδα μας θα έχετε τη δυνατότητα να ενημερώνεστε για τα νέα, που αφορούν τον σύνδεσμο.
+					</p>
+				</div>
 			</div>
-			<footer>
+		</div>
+			<footer class="footer">
 				<?php include 'footer.php';?>
 			</footer>
-		</div>
+		
 		<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
