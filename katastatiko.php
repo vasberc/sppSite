@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<!-- Required meta tags always come first -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		
-		<!-- favicon-96x96.png - For Google TV. -->
-		<link rel="icon" type="image/png" href="images/logo96.png" sizes="96x96">
-
-		<!-- favicon-16x16.png - The classic favicon, displayed in the tabs. -->
-		<link rel="icon" type="image/png" href="images/logo16.png" sizes="16x16">
-
-		<!-- favicon-32x32.png - For Safari on Mac OS. -->
-		<link rel="icon" type="image/png" href="images/logo32.png" sizes="32x32">
-
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/styles.css">
-
-	<title>Σύνδεσμος Προπονητών Ποδοσφαίρου Λασιθίου</title>
-	</head>
-	<body>
-		<div id="content">
-			<header>
-				<?php include '..\header.php';?>
-			</header>
-			<nav>
-				<?php include '..\nav.php';?>
-			</nav>
-			<div style="border-top:solid white; border-left:solid black; border-right:solid black; border-bottom:solid black;" class="maincontent">
+<?php echo '
 				<h2>Καταστατικό</h2>	
 				<h3>ΚΑΤΑΣΤΑΤΙΚΟ Συνδέσμου Προπονητών Ποδοσφαίρου Νομού Λασιθίου</h3>
 				<h3>Άρθρο 1ο</h3>
@@ -224,13 +193,5 @@
 				<h3>ΜΗ ΠΡΟΒΛΕΠΟΜΕΝΑ</h3>
 				<p>Ότι δεν προβλέπει το παρόν Καταστατικό ρυθμίζεται με απόφαση της Εκτελεστικής Επιτροπής του Συνδέσμου, η οποία συνεδριάζει προς τούτο.</p>
 				<p>Το καταστατικό αυτό αποτελείται από 27 συνολικά άρθρα. Εγκρίθηκε κατ’ άρθρο και στο σύνολό του και υπογράφτηκε στις 25/05/2016 από τα παριστάμενα στη Γ.Σ. μέλη του  συνδέσμου.</p>
-			</div>
-			<footer>
-				<?php include '..\footer.php';?>
-			</footer>
-		</div>
-		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	</body>
-</html>
+			';
+?>

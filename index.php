@@ -21,7 +21,7 @@
 		<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 		<link rel="stylesheet" href="css/styles.css">
 
-	<title>Σύνδεσμος Προπονητών Ποδοσφαίρου Λασιθίου</title>
+	<title id="Home">Σύνδεσμος Προπονητών Ποδοσφαίρου Λασιθίου</title>
 	</head>
 	<body>
 		
@@ -29,10 +29,10 @@
 			<?php include 'nav.php';?>
 		</nav>
 		<header class="jumbotron">
-		<?php include 'header.php';?>
+			<?php include 'header.php';?>			
 		</header>
-		<hr>
-		<div class="container">
+		<div class="container">			
+			<?php include 'breadcrumb.php';?>
 			<div class="row row-content">
 				<div class="col-12">		
 					<h2>Καλώς Ήρθατε</h2>
@@ -53,5 +53,6 @@
 		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="http://localhost/js/scripts.js"></script>
 	</body>
 </html>
